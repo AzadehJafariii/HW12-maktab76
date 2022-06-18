@@ -5,6 +5,7 @@ function event_function(event) {
   document.getElementById("show_position").innerHTML = coor;
 }
 
+
 function clearCoor() {
   document.getElementById("show_position").innerHTML = "";
 }
