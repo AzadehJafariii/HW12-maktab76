@@ -1,0 +1,105 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#btn .btn {
+  background-color: rgba(24, 21, 74, 0.8666666667);
+  color: #fff;
+  font-size: 15px;
+  margin: 5px 0 0 0;
+  border-radius: 4px;
+  padding: 8px 154px;
+  border: 1px solid rgba(185, 184, 184, 0.737254902);
+}
+#btn .btn:hover {
+  padding: 10px 156px;
+  background-color: rgba(10, 8, 33, 0.8666666667);
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(185, 184, 184, 0.737254902);
+  height: 100vh;
+}
+
+.form {
+  background-color: #fff;
+  color: rgb(98, 97, 97);
+  width: 450px;
+  height: 450px;
+  padding: 6px 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form .formTitle {
+  position: absolute;
+  top: 0;
+  left: 47px;
+  font-weight: lighter;
+}
+.form #row {
+  border-top: 1px solid rgba(185, 184, 184, 0.737254902);
+}
+.form .row {
+  padding: 6px 0px;
+}
+.form .label {
+  font-size: 12px;
+  padding: 5px 0;
+}
+.form #input {
+  border: 1px solid rgba(185, 184, 184, 0.737254902);
+  border-radius: 4px;
+  padding: 5px 90px;
+}
+.form #textArea {
+  border: 1px solid rgba(185, 184, 184, 0.737254902);
+  padding: 20px 94px;
+}
+
+.menu {
+  color: #fff;
+  height: 450px;
+  border-radius: 4px;
+  padding: 20px;
+  position: relative;
+  background: rgba(22, 17, 115, 0.8666666667);
+  background: linear-gradient(to bottom, rgba(22, 17, 115, 0.8666666667), rgba(8, 7, 23, 0.8666666667));
+}
+.menu .title {
+  padding: 0 0 0 7px;
+  font-weight: lighter;
+}
+.menu .icon {
+  padding: 8px 8px 0px 8px;
+  color: rgb(171, 169, 169);
+  font-size: 12px;
+}
+.menu .text {
+  padding: 0 0 0 7px;
+  font-size: 12px;
+}
+.menu .info {
+  padding: 8px 0;
+}
+.menu .apps {
+  position: absolute;
+  bottom: 20px;
+  color: #fff;
+  font-size: 15px;
+}
+.menu .apps .iconify {
+  padding: 3px;
+}/*# sourceMappingURL=styles.css.map */

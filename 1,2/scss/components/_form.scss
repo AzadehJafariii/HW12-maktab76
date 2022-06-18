@@ -1,0 +1,40 @@
+.container {
+  @include flex;
+  background-color: $lightGray;
+  height: 100vh;
+}
+.form {
+  background-color: $white;
+  color: $darkGray;
+  width: $formWidth;
+  height: $formHeigth;
+  padding: $paddingForm;
+  position: relative;
+  @include flex-column;
+  .formTitle {
+    position: absolute;
+    top:0;
+    left:47px;
+  
+    font-weight: lighter;
+  }
+  #row{
+      border-top: 1px solid $lightGray;
+  }
+  .row {
+    padding: $paddingForm;
+  }
+  .label {
+    font-size: $labelSize;
+    padding: $paddingLabel;
+  }
+  #input {
+    border: 1px solid $lightGray;
+    @include border-radius(4px);
+    padding: $paddingItem;
+  }
+  #textArea {
+    border: 1px solid $lightGray;
+    padding: $paddingTextarea;
+  }
+}

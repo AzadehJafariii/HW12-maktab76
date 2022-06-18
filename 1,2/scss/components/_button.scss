@@ -1,0 +1,17 @@
+#btn {
+  @include flex;
+  .btn {
+    background-color: $darkBlue;
+    color: $white;
+    font-size: $buttonFont;
+    margin: $marginButton;
+    @include border-radius(4px);
+    padding: $paddingButton;
+    border: 1px solid $lightGray;
+    &:hover {
+      padding: $paddingHover;
+      background-color: $blueHover;
+      font-size: $hoverSize;
+    }
+  }
+}

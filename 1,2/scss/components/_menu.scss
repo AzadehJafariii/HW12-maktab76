@@ -1,0 +1,33 @@
+.menu {
+  color: $white;
+  height: $menuHeight;
+  @include border-radius(4px);
+  padding: $paddingMenu;
+  position: relative;
+  @include gradient($start-color, $end-color, vertical);
+  .title {
+    padding: $paddingTitle;
+    font-weight: lighter;
+  }
+  .icon {
+    padding: $paddingIcon;
+    color: $gray;
+    font-size: $textSize;
+  }
+  .text {
+    padding: $paddingTitle;
+    font-size: $textSize;
+  }
+  .info {
+    padding: $paddingInfo;
+  }
+  .apps {
+    position: absolute;
+    bottom: 20px;
+    color: $white;
+    font-size: 15px;
+    .iconify {
+      padding: 3px;
+    }
+  }
+}
